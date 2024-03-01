@@ -5,7 +5,7 @@ def admin_login(user_name,password):
     else:
        # print("Access denied")
         return ("Access denied")
-result=admin_login("ADMI",[1,2,3,4,5])
+result=admin_login("ADMIN",[1,2,3,4,5])
 print(result) 
 def calc(operator,num1,num2):
     if operator=="+":
